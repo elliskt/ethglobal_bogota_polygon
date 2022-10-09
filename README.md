@@ -24,6 +24,7 @@ In addtion, Ting Museum alsocollaborates with other organizations to bring artis
 ---------------------------------------------
 
 Website: http://18.162.114.252:8805/
+Contract: https://mumbai.polygonscan.com/address/0xa4596381ef93434847b9617ef9834ff71ffc0e3c
 
 Besides, IcarusArt.AI has organized an exhibition in Venezuela in order to help the artists in local LATAM and bring them into the NFT marketplace.
 
