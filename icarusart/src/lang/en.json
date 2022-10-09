@@ -1,0 +1,182 @@
+{
+  "header": {
+    "left": {
+      "search": "Search"
+    },
+    "right": {
+      "homePage": "HomePage",
+      "discover": "Discover",
+      "language": "Language",
+      "connect": "Connect Wallet",
+      "languageList": {
+        "en": "English",
+        "zh": "Chinese",
+        "spain": "Spanish"
+      }
+    }
+  },
+  "homeBanner": {
+    "left": {
+      "global": "IcarusArt AI",
+      "firstArt": "The first interactive art of human and AI based on blockchain",
+      "platform": "Creation platform",
+      "browse": "Browse the gallery",
+      "create": "Create artwork",
+      "howToBeArtist": "How to become an artist?"
+    },
+    "right": {
+      "currentPrice": "Current Price"
+    }
+  },
+  "hotArts": {
+    "title": {
+      "left": {
+        "hot": "Popular artwork",
+        "update": "We will regularly update you with popular artworks"
+      },
+      "right": {
+        "allArts": "View all artworks"
+      }
+    },
+    "items": {
+      "sale": "On sale",
+      "auction": "In auction",
+      "upcomingAuction": "Upcoming auction",
+      "notForSale": "Not for sale"
+    }
+  },
+  "topArtists": {
+    "title": {
+      "left": {
+        "top": "TOP Artists",
+        "recommend": "We regularly recommend top artists to you"
+      },
+      "right": {
+        "allArtists": "View all artists"
+      }
+    },
+    "items": {
+      "sale": "On sale",
+      "auction": "In auction",
+      "upcomingAuction": "Upcoming auction",
+      "notForSale": "Not for sale"
+    }
+  },
+  "siteIntro": {
+    "siteIntroTitle": "Website introduction",
+    "recommend": "We regularly recommend top artists to you",
+    "intro": "Here is the website introduction of icarusart.ai"
+  },
+  "collection": {
+    "create": "Create artwork",
+    "titleIntro": "You can choose an AI model, enter text, generate images",
+    "chooseType": "Select the type of artwork",
+    "createSingle": "Create a single artwork",
+    "singleIntro": "If you would like to upload a single artwork, select \"Create Single Entry\"",
+    "createMulti": "Create multi-layer artwork",
+    "createQuantum": "Quantum Algorithm",
+    "multiIntro": "If you want to upload a multi-layered artwork, select \"Create Multi-Layered Artwork\"",
+    "quantumIntro": "By using IBM quantum computing to create Artworks"
+  },
+  "setPrice": {
+    "set": "Art Pricing",
+    "titleIntro": "You can choose an AI model, enter text, generate images",
+    "modelTitle": "flamboyant",
+    "fixed": "Fixed Price",
+    "auction": "Auction",
+    "notSale": "Not For Sale",
+    "enterFixed": "Enter fixed price",
+    "confirm": "Confirm",
+    "startPrice": "Starting price",
+    "startTime": "Auction start time",
+    "duration": "auction duration",
+    "willInclude": "The works will be included by you, which can be viewed in the \"Favorites\" in the \"Personal Page\""
+  },
+  "singleCollection": {
+    "create": "Create a single artwork",
+    "titleIntro": "You can choose an AI model, enter text, generate images",
+    "name": "Name",
+    "intro": "Artwork Introduction",
+    "preview": "Preview",
+    "nameInput": "Edit name, within 15 characters",
+    "introInput": "Enter text, artwork introduction",
+    "previewIntro": "Support JPEG, PNG, GIF and other formats of pictures, MP4, M4V, MOV and other formats of video",
+    "mint": "Mint"
+  },
+  "multiCollection": {
+    "create": "Create multi-layer artwork",
+    "titleIntro": "You can choose an AI model, enter text, generate images",
+    "canvas": "Canvas",
+    "canvasName": "Canvas Name",
+    "canvasNameInput": "Edit name, within 15 characters",
+    "canvasIntro": "Canvas Introduction",
+    "canvasIntroInput": "Enter text, artwork introduction",
+    "canvasSize": "Canvas Size",
+    "layer": "Layer",
+    "delete": "Delete Layer",
+    "layerName": "Layer Name",
+    "layerNameInput": "Edit name, within 15 characters",
+    "layerIntro": "Layer Introduction",
+    "layerIntroInput": "Enter text, artwork introduction",
+    "addImage": "Add Image",
+    "tip": "The picture of the current layer will be used as the default state of the main canvas",
+    "layerUploadIntro": "Preview your multi-layer artwork here",
+    "addLayer": "Add Layer",
+    "preview": "Preview",
+    "mint": "Mint"
+  },
+  "footer": {
+    "newCreative": "The New Creative Economy.",
+    "crypter": {
+      "title": "Crypter.",
+      "item1": "Discover",
+      "connect": "Connect wallet",
+      "create": "Create item"
+    },
+    "info": {
+      "title": "Info",
+      "item1": "Download",
+      "item2": "Demos",
+      "item3": "Support"
+    },
+    "join": "Join Newsletter",
+    "subscribe": "Subscribe our newsletter to get more free design course and resource",
+    "enter": "Enter your email",
+    "useCookies": "We use cookies for better service.",
+    "accept": "Accept"
+  },
+  "gallery": {
+    "directAuction": "Direct Auction",
+    "inAuction": "In Auction",
+    "upcomingAuction": "Upcoming auction",
+    "Notsale": "Not For Sale",
+    "artGallery": "Art Gallery",
+    "update": "We will regularly update you with popular artworks"
+  },
+  "profile": {
+    "editProfile": "Edit Profile",
+    "des": "You canset preferred display name,upload your profile photo and manage other personal settings.",
+    "profilePhoto": "Profile photo ",
+    "profilePhotoDes": "We recommend an image of at least 400x400.",
+    "upload": "Upload",
+    "imageType": "Only accept jpg/png/jpeg/gif,2M at most.",
+    "AccountInfo": "Account Info",
+    "userName": "USER NAME",
+    "personalUrl": "PERSONAL URL",
+    "profileDescription": "DESCRIPTION",
+    "social": "Social",
+    "facebook": "FACEBOOK",
+    "twitter": "TWITTER",
+    "pinterest": "PINTEREST",
+    "instagram": "INSTAGRAM",
+    "updateProfile": "Update Profile",
+    "clearAll": "Clear All",
+    "backToPersonal": "Back to personal",
+    "personal": "personal",
+    "profileEdit": "profileEdit ",
+    "updateSuccess": "Update Success",
+    "overflowUsername": "The length of userName should be less than 20",
+    "edit": "Edit",
+    "poapNull": "You have not POAP NFT assets"
+  }
+}

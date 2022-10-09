@@ -1,0 +1,180 @@
+.topArtists {
+  width: 100%;
+  // height: 50rem;
+  background-color: #fff;
+
+  & .topArtist__container {
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
+
+    & .title {
+      width: 100%;
+      height: 12%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: @icarus_space-7;
+      margin-top: @icarus_space-7;
+
+      & .title__left {
+        width: 35%;
+        height: 50%;
+
+        & h1 {
+          font-weight: @icarus_fontWeights-medium;
+          font-size: @icarus_fontSizes-6;
+        }
+
+        & h3 {
+          color: #747984;
+          font-size: @icarus_fontSizes-2;
+        }
+      }
+
+      & .title__right {
+        color: #6664f5;
+        cursor: pointer;
+        font-size: @icarus_fontSizes-2;
+
+        &:hover {
+          color: #504eef;
+        }
+      }
+    }
+
+    & .topArtists__skeleton {
+      list-style: none;
+      width: 100%;
+      height: 82%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: space-around;
+      justify-content: space-evenly;
+
+      & li {
+        width: 100%;
+        height: 48%;
+        border-radius: 12px;
+      }
+    }
+
+    & .topArtists__list {
+      list-style: none;
+      width: 100%;
+      height: 82%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: space-between;
+      justify-content: space-between;
+
+      & li {
+        width: 100%;
+        // height: 20rem;
+        border-radius: @icarus_radii-4;
+        box-shadow: 0px 0px 10px 2px rgba(31, 47, 70, 12%);
+        transition: all ease 0.3s;
+        cursor: pointer;
+        padding: @icarus_space-8;
+        margin-bottom: @icarus_space-6;
+        display: flex;
+        align-items: center;
+
+        /* From uiverse.io by @TimTrayler */
+        & .card {
+          width: 300px;
+          height: 360px;
+          background-color: #212121;
+          box-shadow: 15px 15px 30px #191919, -15px -15px 30px #292929;
+          transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+            transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+          border-radius: @icarus_radii-3;
+          margin-right: @icarus_space-5;
+
+          & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: inherit;
+          }
+
+          &:hover {
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            transform: scale(1.05);
+          }
+        }
+
+        & .nftAndAddress {
+          height: 360px;
+          width: calc(100% - 300px);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          & .address {
+            height: 20%;
+            color: #fff;
+
+            & h1 {
+              font-family: "AlegreyaSansSC-ExtraBold";
+            }
+
+            & h3 {
+            }
+
+            & span {
+            }
+          }
+
+          & .nft {
+            height: 75%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            & .nftItems {
+              height: 100%;
+              width: calc(100% / 4 - 10px);
+              position: relative;
+              &:hover {
+                & .nftItems__mask {
+                  opacity: 1;
+                }
+              }
+              & .nftItems__mask {
+                opacity: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-end;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: opacity ease 0.3s;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                padding: @icarus_space-3;
+                border-radius: @icarus_radii-2;
+              }
+
+              & img {
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+                border-radius: @icarus_radii-2;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,441 @@
+.multi {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  & .multiContainer {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    & .title {
+      width: 100%;
+      height: 144px;
+
+      & h1 {
+        font-size: 2.4rem;
+      }
+
+      & h3 {
+        color: #9095a2;
+      }
+    }
+
+    & .center {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      & .leftDetailAndLine {
+        width: 38%;
+        display: flex;
+        align-items: flex-start;
+
+        & .leftDetail {
+          width: 100%;
+          box-sizing: border-box;
+          padding-right: 2rem;
+          display: flex;
+          flex-direction: column;
+
+          & .nameContainer {
+            width: 100%;
+            height: 9.9rem;
+
+            & h4 {
+              width: 100%;
+              height: 40px;
+            }
+
+            & h5 {
+              width: 100%;
+              height: 40px;
+              color: #b6b8bd;
+            }
+
+            & .name {
+              width: 100%;
+              height: 35%;
+              border-radius: 12px;
+              border: 2px solid #e6e8ec;
+
+              & input {
+                width: 100%;
+                height: 100%;
+                outline: none;
+                border: none;
+                border-radius: 10px;
+                padding-left: 1rem;
+                box-sizing: border-box;
+              }
+            }
+          }
+
+          & .description {
+            width: 100%;
+            height: 16.65rem;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+            & h5 {
+              width: 100%;
+              height: 40px;
+              color: #b6b8bd;
+            }
+
+            & textarea {
+              width: 100%;
+              height: 100%;
+              outline: none;
+              border: none;
+              border-radius: 12px;
+              padding-left: 1rem;
+              box-sizing: border-box;
+              resize: none;
+              border: 2px solid #e6e8ec;
+              padding-top: 1.5rem;
+            }
+          }
+
+          & .canvasSize {
+            width: 100%;
+            height: 8.1rem;
+            border-bottom: 2px solid #e6e8ec;
+            margin-bottom: 30px;
+
+            & h5 {
+              width: 100%;
+              height: 10px;
+              color: #b6b8bd;
+            }
+
+            & .sizeContainer {
+              width: 100%;
+              height: 80%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              & .left {
+                width: 40%;
+                height: 53%;
+                background-color: #fff;
+                border-radius: 12px;
+                border: 2px solid #e6e8ec;
+
+                & input {
+                  width: 100%;
+                  height: 100%;
+                  border: none;
+                  outline: none;
+                  border-radius: 12px;
+                  text-align: right;
+                  box-sizing: border-box;
+                  padding-right: 20px;
+                }
+              }
+
+              & .plus {
+              }
+
+              & .right {
+                width: 40%;
+                height: 53%;
+                background-color: #fff;
+                border-radius: 12px;
+                border: 2px solid #e6e8ec;
+
+                & input {
+                  width: 100%;
+                  height: 100%;
+                  border: none;
+                  outline: none;
+                  border-radius: 12px;
+                  text-align: right;
+                  box-sizing: border-box;
+                  padding-right: 20px;
+                }
+              }
+            }
+          }
+
+          & .layers {
+            list-style: none;
+            width: 100%;
+
+            & li {
+              width: 100%;
+              height: 45rem;
+              border-bottom: 2px solid #e6e8ec;
+              margin-bottom: 30px;
+
+              & .title {
+                width: 100%;
+                height: 5%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                & .layer {
+                }
+
+                & .delete {
+                  background-color: #ef65a9;
+                  border-radius: 20px;
+                  padding: 5px 20px;
+                  color: #fff;
+                  font-size: 12px;
+                  user-select: none;
+                  cursor: pointer;
+                  transition: all ease 0.2s;
+
+                  &:hover {
+                    background-color: #f03592;
+                  }
+                }
+              }
+
+              & .layerNameContainer {
+                width: 100%;
+                height: 7.5rem;
+
+                & h5 {
+                  width: 100%;
+                  height: 40px;
+                  color: #b6b8bd;
+                }
+
+                & .name {
+                  width: 100%;
+                  height: 3.465rem;
+                  border-radius: 12px;
+                  border: 2px solid #e6e8ec;
+
+                  & input {
+                    width: 100%;
+                    height: 100%;
+                    outline: none;
+                    border: none;
+                    border-radius: 10px;
+                    padding-left: 1rem;
+                    box-sizing: border-box;
+                  }
+                }
+              }
+
+              & .layerDescription {
+                width: 100%;
+                height: 16.65rem;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 30px;
+
+                & h5 {
+                  width: 100%;
+                  height: 40px;
+                  color: #b6b8bd;
+                }
+
+                & textarea {
+                  width: 100%;
+                  height: 100%;
+                  outline: none;
+                  border: none;
+                  border-radius: 12px;
+                  padding-left: 1rem;
+                  box-sizing: border-box;
+                  resize: none;
+                  border: 2px solid #e6e8ec;
+                  padding-top: 1.5rem;
+                }
+              }
+
+              & .addImg {
+                width: 100%;
+                height: 14.65rem;
+                display: flex;
+                flex-direction: column;
+
+                & h5 {
+                  width: 100%;
+                  height: 40px;
+                  color: #b6b8bd;
+
+                  & span {
+                    color: #ef65a9;
+                    margin-left: 8px;
+                    font-size: 12px;
+                  }
+                }
+
+                & .layerUploadContainer {
+                  width: 190px;
+                  height: 190px;
+                }
+              }
+            }
+          }
+
+          & .add {
+            width: 100%;
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            & h4 {
+              width: 100%;
+              height: 40px;
+            }
+
+            & .addLayer {
+              width: 120px;
+              height: 120px;
+              border: 2px solid #e6e8ec;
+              border-radius: 12px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              cursor: pointer;
+              user-select: none;
+              transition: all ease 0.2s;
+
+              &:hover {
+                border: 2px solid #87a4ee;
+              }
+
+              & img {
+                width: 15%;
+                height: 15%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+
+        & .dashLine {
+          width: 2px;
+          background-image: linear-gradient(
+            to bottom,
+            #ededed 0%,
+            #ededed 50%,
+            transparent 50%
+          );
+          background-size: 2px 24px;
+          background-repeat: repeat-y;
+          margin-top: 40px;
+          place-self: stretch;
+        }
+      }
+
+      & .uploadContainer {
+        width: 51%;
+        height: 45rem;
+
+        & h4 {
+          width: 100%;
+          height: 5%;
+          background-color: #fff;
+        }
+
+        .upload-demo {
+          width: 100%;
+          height: 86%;
+          border-radius: 12px;
+          background-color: #fcfbfd;
+          box-shadow: 0px 0px 20px 0px rgba(133, 133, 133, 30%);
+
+          & .upload {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            background-color: #fcfbfd;
+            box-shadow: 0px 0px 20px 0px rgba(133, 133, 133, 30%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9195a1;
+
+            & .tips {
+              width: 100%;
+              height: 100%;
+              margin: 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            & .uploadImgContainer {
+              width: 100%;
+              height: 100%;
+              border-radius: 12px;
+              background-color: #fcfbfd;
+              box-shadow: 0px 0px 20px 0px rgba(133, 133, 133, 30%);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              transition: all ease 0.3s;
+              position: relative;
+              list-style: none;
+
+              &:hover {
+                & .closeImgOrVideo {
+                  transition: all ease 0.3s;
+
+                  display: block;
+                }
+              }
+
+              & li {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+
+                & img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  border-radius: 12px;
+                }
+              }
+            }
+          }
+        }
+
+        & .btnContainer {
+          width: 100%;
+          height: 10%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+
+          & .mint {
+            width: 25%;
+            height: 60%;
+            background-color: #547fef;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fcfbfd;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            user-select: none;
+
+            &:hover {
+              background-color: #225cee;
+            }
+          }
+        }
+      }
+    }
+  }
+}

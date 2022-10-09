@@ -1,0 +1,147 @@
+.single {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  & .singleContainer {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    & .title {
+      width: 100%;
+      height: 144px;
+
+      & h1 {
+        font-size: 2.4rem;
+      }
+
+      & h3 {
+        color: #9095a2;
+      }
+    }
+
+    & .centerPart {
+      width: 100%;
+      height: 50rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      & .leftDetailAndLine {
+        width: 40%;
+        height: 90%;
+        display: flex;
+        align-items: flex-end;
+
+        & .leftDetail {
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box;
+          padding-right: 2rem;
+
+          & .nameContainer {
+            width: 100%;
+            height: 18%;
+
+            & h4 {
+              width: 100%;
+              height: 40px;
+            }
+
+            & .name {
+              width: 100%;
+              height: 35%;
+              border-radius: 12px;
+              border: 2px solid #e6e8ec;
+
+              & input {
+                width: 100%;
+                height: 100%;
+                outline: none;
+                border: none;
+                border-radius: 10px;
+                padding-left: 1rem;
+                box-sizing: border-box;
+              }
+            }
+          }
+
+          & .description {
+            width: 100%;
+            height: 77%;
+
+            & h4 {
+              width: 100%;
+              height: 40px;
+            }
+
+            & textarea {
+              width: 100%;
+              height: 100%;
+              outline: none;
+              border: none;
+              border-radius: 12px;
+              padding-left: 1rem;
+              box-sizing: border-box;
+              resize: none;
+              border: 2px solid #e6e8ec;
+              padding-top: 1.5rem;
+            }
+          }
+        }
+
+        & .dashLine {
+          width: 2px;
+          height: calc(100% - 40px);
+          background-image: linear-gradient(
+            to bottom,
+            #ededed 0%,
+            #ededed 50%,
+            transparent 50%
+          );
+          background-size: 2px 24px;
+          background-repeat: repeat-y;
+        }
+      }
+
+      & .uploadContainer {
+        width: 51%;
+        height: 100%;
+
+        & h4 {
+          width: 100%;
+          height: 5%;
+          background-color: #fff;
+        }
+
+        & .btnContainer {
+          width: 100%;
+          height: 10%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+
+          & .mint {
+            width: 25%;
+            height: 60%;
+            background-color: #547fef;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fcfbfd;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            user-select: none;
+
+            &:hover {
+              background-color: #225cee;
+            }
+          }
+        }
+      }
+    }
+  }
+}

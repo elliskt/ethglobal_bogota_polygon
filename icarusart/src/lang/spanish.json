@@ -1,0 +1,176 @@
+{
+  "header": {
+    "left": {
+      "search": "búsqueda"
+    },
+    "right": {
+      "homePage": "página principal",
+      "discover": "descubrir",
+      "language": "idioma",
+      "connect": "conectar billetera",
+      "languageList": {
+        "en": "Inglés",
+        "zh": "Chino",
+        "spain": "España"
+      }
+    }
+  },
+  "homeBanner": {
+    "left": {
+      "global": "IcarusArt AI",
+      "firstArt": "El primer arte interactivo de humanos e IA basado en blockchain",
+      "platform": "Plataforma de creación",
+      "browse": "Navegar por la galería",
+      "create": "Crear ilustraciones",
+      "howToBeArtist": "¿Cómo convertirse en un artista?"
+    },
+    "right": {
+      "currentPrice": "Precio actual"
+    }
+  },
+  "hotArts": {
+    "title": {
+      "left": {
+        "hot": "Obras de arte populares",
+        "update": "Lo actualizaremos regularmente con obras de arte populares."
+      },
+      "right": {
+        "allArts": "Ver todas las obras de arte"
+      }
+    },
+    "items": {
+      "sale": "En venta",
+      "auction": "en subasta",
+      "upcomingAuction": "Próxima subasta",
+      "notForSale": "No para la venta"
+    }
+  },
+  "topArtists": {
+    "title": {
+      "left": {
+        "top": "Los mejores artistas",
+        "recommend": "Regularmente te recomendamos a los mejores artistas."
+      },
+      "right": {
+        "allArtists": "Ver todos los artistas"
+      }
+    }
+  },
+  "siteIntro": {
+    "siteIntroTitle": "Introducción al sitio web",
+    "recommend": "Regularmente te recomendamos a los mejores artistas.",
+    "intro": "Aquí está la introducción del sitio web de icarusart.ai"
+  },
+  "collection": {
+    "create": "Crear ilustraciones",
+    "titleIntro": "Puede elegir un modelo de IA, ingresar texto, generar imágenes",
+    "chooseType": "Seleccione el tipo de obra de arte",
+    "createSingle": "Crear una sola obra de arte",
+    "singleIntro": "Si desea cargar una sola obra de arte, seleccione \"Crear entrada única\"",
+    "createMulti": "Crear ilustraciones de varias capas",
+    "createQuantum": "Algoritmo cuántico",
+    "multiIntro": "Si desea cargar una obra de arte de varias capas, seleccione \"Crear una obra de arte de varias capas\"",
+    "quantumIntro": "Mediante el uso de la computación cuántica de IBM para crear obras de arte"
+  },
+  "setPrice": {
+    "set": "Precios del arte",
+    "titleIntro": "Puede elegir un modelo de IA, ingresar texto, generar imágenes",
+    "modelTitle": "extravagante",
+    "fixed": "Precio fijo",
+    "auction": "Subasta",
+    "notSale": "No para la venta",
+    "enterFixed": "Entrar Comprar ahora",
+    "confirm": "confirmar",
+    "startPrice": "Precio inicial",
+    "startTime": "Hora de inicio de la subasta",
+    "duration": "duración de la subasta",
+    "willInclude": "Las obras serán incluidas por usted, las cuales se pueden visualizar en los \"Favoritos\" en la \"Página Personal\""
+  },
+  "singleCollection": {
+    "create": "Crear una sola obra de arte",
+    "titleIntro": "Puede elegir un modelo de IA, ingresar texto, generar imágenes",
+    "name": "nombre",
+    "intro": "Introducción a las ilustraciones",
+    "preview": "Avance",
+    "nameInput": "Editar nombre, dentro de 15 caracteres",
+    "introInput": "Ingrese texto, introducción de ilustraciones",
+    "previewIntro": "Admite JPEG, PNG, GIF y otros formatos de imágenes, MP4, M4V, MOV y otros formatos de video",
+    "mint": "menta"
+  },
+  "multiCollection": {
+    "create": "Create multi-layer artwork",
+    "titleIntro": "Puede elegir un modelo de IA, ingresar texto, generar imágenes",
+    "canvas": "Lienzo",
+    "canvasName": "Lienzo Nombre",
+    "canvasNameInput": "Editar nombre, dentro de 15 caracteres",
+    "canvasIntro": "Introducción al lienzo",
+    "canvasIntroInput": "Ingrese texto, introducción de ilustraciones",
+    "canvasSize": "Tamaño del lienzo",
+    "layer": "Capa",
+    "delete": "Eliminar capa",
+    "layerName": "Nombre de capa",
+    "layerNameInput": "Editar nombre, dentro de 15 caracteres",
+    "layerIntro": "Introducción a la capa",
+    "layerIntroInput": "Ingrese texto, introducción de ilustraciones",
+    "addImage": "Añadir imagen",
+    "tip": "La imagen de la capa actual se utilizará como estado predeterminado del lienzo principal",
+    "layerUploadIntro": "Obtenga una vista previa de su obra de arte multicapa aquí",
+    "addLayer": "Agregar capa",
+    "preview": "Avance",
+    "mint": "menta"
+  },
+  "footer": {
+    "newCreative": "La Nueva Economía Creativa.",
+    "crypter": {
+      "title": "cripta.",
+      "item1": "Descubrir",
+      "connect": "Conectar billetera",
+      "create": "Crear elemento"
+    },
+    "info": {
+      "title": "Información",
+      "item1": "Descargar",
+      "item2": "Población",
+      "item3": "Apoyo"
+    },
+    "join": "Únete al boletín",
+    "subscribe": "Suscríbase a nuestro boletín para obtener más recursos y cursos de diseño gratuitos",
+    "enter": "Introduce tu correo electrónico",
+    "useCookies": "Utilizamos cookies para un mejor servicio.",
+    "accept": "Aceptar"
+  },
+  "gallery": {
+    "directAuction": "Subasta Directa",
+    "inAuction": "en subasta",
+    "upcomingAuction": "Próxima subasta",
+    "Notsale": "No para la venta",
+    "artGallery": "Galería de arte",
+    "update": "Lo actualizaremos regularmente con obras de arte populares."
+  },
+  "profile": {
+    "editProfile": "Editar perfil",
+    "des": "Puedes establecer su apodo favorito, subir su foto de perfil y administrar otra información personal.",
+    "profilePhoto": "foto de perfil",
+    "profilePhotoDes": "Recomendamos un tamaño de imagen de al menos 400x400.",
+    "upload": "subir",
+    "imageType": "Solo se pueden cargar jpg/png/jpeg/gif, y el soporte máximo es 2M.",
+    "AccountInfo": "Información de la cuenta",
+    "userName": "Nombre de usuario",
+    "personalUrl": "Sitio web personal",
+    "profileDescription": "Descripción personal",
+    "social": "sociales",
+    "facebook": "FACEBOOK",
+    "twitter": "TWITTER",
+    "pinterest": "PINTEREST",
+    "instagram": "INSTAGRAM",
+    "updateProfile": "Actualizar",
+    "clearAll": "Borrar",
+    "backToPersonal": "Volver a la página de inicio personal",
+    "personal": "Página de inicio personal",
+    "profileEdit": "Editar perfil",
+    "updateSuccess": "Actualización exitosa",
+    "overflowUsername": "La longitud del nombre de usuario debe ser inferior a 20",
+    "edit": "editar",
+    "poapNull": "No tiene activos POAP NFT"
+  }
+}

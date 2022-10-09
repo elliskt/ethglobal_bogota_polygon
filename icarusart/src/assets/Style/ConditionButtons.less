@@ -1,0 +1,25 @@
+.galleryBtns {
+    list-style: none;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: none;
+
+    & li {
+        border-radius: 30px;
+        padding: 3px 8px 3px 8px;
+        text-align: center;
+        color: #72798a;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    & li.common {}
+
+    & li.selected {
+        padding: 3px 8px 3px 8px;
+        background-color: #000;
+        color: #d6dae2;
+    }
+}

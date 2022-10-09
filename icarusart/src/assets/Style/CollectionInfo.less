@@ -1,0 +1,420 @@
+.collection {
+  width: 100%;
+  background-color: #f1f3f4;
+  box-sizing: border-box;
+  padding-top: 5rem;
+
+  & .top {
+    width: 100%;
+    max-width: 1600px;
+    height: 45rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    & .leftImg {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+    }
+
+    & .rightInfo {
+      width: 40%;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 0 2% 0 9%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      & .titlePart {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 1rem;
+
+        & h1 {
+          font-size: 3.5rem;
+          width: 100%;
+          height: 70%;
+          line-height: 95%;
+        }
+
+        & .line {
+          width: 40%;
+          height: 1%;
+          background-color: gray;
+        }
+
+        & h3 {
+          & span {
+            color: #567cf0;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      & .creatorPart {
+        width: 100%;
+        height: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+
+        & .creator {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          & img {
+            width: 51px;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 8px;
+          }
+
+          & .creatorRightPart {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            & .up {
+              color: #8d9195;
+            }
+
+            & .down {
+            }
+          }
+        }
+
+        & .instantPrice {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          & img {
+            width: 51px;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 8px;
+          }
+
+          & .instantPriceRightPart {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            & .up {
+              color: #8d9195;
+            }
+
+            & .down {
+              & span {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      & .bidInfo {
+        width: 89%;
+        height: 50%;
+        border-radius: 16px;
+        box-shadow: 0px 64px 64px -24px rgba(18, 18, 18, 0.12);
+        border: 1px solid #e6e8ec;
+        padding: 40px;
+        box-sizing: border-box;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & .up {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          & .currentBid {
+            color: #787e8e;
+          }
+
+          & h1 {
+            font-size: 3.5rem;
+            color: #63b072;
+          }
+
+          & .price {
+            color: #787e8e;
+            font-size: 1.5rem;
+          }
+        }
+
+        & .down {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          & h3 {
+          }
+
+          & .countDown {
+          }
+        }
+      }
+
+      & .btns {
+        width: 89%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & .placeBid {
+          width: 100%;
+          height: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #3772ff;
+          border-radius: 24px;
+          font-size: 16px;
+          font-weight: 700;
+          color: #fcfcfd;
+          transition: all 0.2s;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #0755f5;
+          }
+        }
+
+        & .viewItem {
+          width: 100%;
+          height: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 24px;
+          font-size: 16px;
+          font-weight: 700;
+          transition: all 0.2s;
+          cursor: pointer;
+          box-shadow: 0 0 0 2px #e6e8ec inset;
+          color: #23262f;
+
+          &:hover {
+            color: #fcfcfd;
+            background-color: #0755f5;
+          }
+        }
+      }
+    }
+  }
+
+  & .center {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 20rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .left {
+      width: 60%;
+      height: 100%;
+
+      & .describeArea {
+        overflow-y: auto;
+        height: 13rem;
+      }
+
+      & .history {
+        overflow-y: auto;
+        height: 13rem;
+      }
+
+      & .loadMore {
+        width: 130px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        font-size: 16px;
+        font-weight: 700;
+        transition: all 0.2s;
+        cursor: pointer;
+        box-shadow: 0 0 0 2px #e6e8ec inset;
+        color: #23262f;
+        box-sizing: border-box;
+        padding-left: 10px;
+
+        &:hover {
+          color: #fcfcfd;
+          background-color: #0755f5;
+        }
+      }
+    }
+
+    & .right {
+      width: 40%;
+      height: 100%;
+      padding: 0 2% 0 9%;
+      box-sizing: border-box;
+
+      & .title {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #23262f;
+        margin-bottom: 1rem;
+        border-color: #e6e8ec;
+      }
+
+      & .bidList {
+        width: 100%;
+        height: 64%;
+        list-style: none;
+        overflow-y: auto;
+
+        & li {
+          width: 60%;
+          height: 30%;
+          display: flex;
+
+          & img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            margin-right: 1.5rem;
+            border-radius: 50%;
+          }
+
+          & .bidInfo {
+            & h3 {
+              display: flex;
+              align-items: center;
+
+              & .priceTitle {
+                margin-right: 8px;
+              }
+
+              & .price {
+                color: #63b072;
+              }
+            }
+
+            & .time {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      & .loadMore {
+        width: 130px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 24px;
+        font-size: 16px;
+        font-weight: 700;
+        transition: all 0.2s;
+        cursor: pointer;
+        box-shadow: 0 0 0 2px #e6e8ec inset;
+        color: #23262f;
+        box-sizing: border-box;
+        padding-left: 10px;
+
+        &:hover {
+          color: #fcfcfd;
+          background-color: #0755f5;
+        }
+      }
+    }
+  }
+
+  & .bottom {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 20rem;
+
+    & .title {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #23262f;
+      margin-bottom: 2rem;
+      border-color: #e6e8ec;
+    }
+
+    & .layerList {
+      width: 100%;
+      height: calc(100% - 72px);
+      display: flex;
+      list-style: none;
+      overflow-x: auto;
+
+      & li {
+        width: 180px;
+        height: 220px;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        & .layerImage {
+          width: 180px;
+          height: 180px;
+          border-radius: 20px;
+          object-fit: cover;
+        }
+
+        & .layerName {
+          width: 100%;
+          height: 10%;
+          text-align: center;
+          color: #8d9195;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "header": {
+    "left": {
+      "search": "搜索"
+    },
+    "right": {
+      "homePage": "首页",
+      "discover": "发现",
+      "language": "语言",
+      "connect": "连接钱包",
+      "languageList": {
+        "en": "英语",
+        "zh": "中文",
+        "spain": "西班牙语"
+      }
+    }
+  },
+  "homeBanner": {
+    "left": {
+      "global": "IcarusArt AI",
+      "firstArt": "首个基于区块链的人和AI交互艺术",
+      "platform": "创作平台",
+      "browse": "浏览画廊",
+      "create": "创建艺术品",
+      "howToBeArtist": "如何成为艺术家？"
+    },
+    "right": {
+      "currentPrice": "当前价格"
+    }
+  },
+  "hotArts": {
+    "title": {
+      "left": {
+        "hot": "热门艺术品",
+        "update": "我们会定期为您更新热门艺术品"
+      },
+      "right": {
+        "allArts": "查看所有艺术品"
+      }
+    },
+    "items": {
+      "sale": "正在出售",
+      "auction": "拍卖中",
+      "upcomingAuction": "即将拍卖",
+      "notForSale": "暂不出售"
+    }
+  },
+  "topArtists": {
+    "title": {
+      "left": {
+        "top": "TOP 艺术家",
+        "recommend": "我们会定期为您推荐顶级艺术家"
+      },
+      "right": {
+        "allArtists": "查看所有艺术家"
+      }
+    },
+    "items": {
+      "sale": "正在出售",
+      "auction": "拍卖中",
+      "upcomingAuction": "即将拍卖",
+      "notForSale": "暂不出售"
+    }
+  },
+  "siteIntro": {
+    "siteIntroTitle": "网站介绍",
+    "recommend": "我们会定期为您推荐顶级艺术家",
+    "intro": "这里是icarusart.ai的网站介绍"
+  },
+  "collection": {
+    "create": "创建艺术品",
+    "titleIntro": "您可以选择一个AI模型，输入文字，生成图像",
+    "chooseType": "选择艺术品种类",
+    "createSingle": "创建单幅作品",
+    "singleIntro": "如果您想上传单幅作品，请选择“创建单幅作品”",
+    "createMulti": "创建多图层作品",
+    "createQuantum": "量子算法",
+    "multiIntro": "如果您想上传多图层作品，请选择“创建多图层作品”",
+    "quantumIntro": "通过使用 IBM 量子计算来创作艺术品”"
+  },
+  "setPrice": {
+    "set": "艺术品定价",
+    "titleIntro": "您可以选择一个AI模型，输入文字，生成图像",
+    "modelTitle": "龙飞凤舞",
+    "fixed": "一口价",
+    "auction": "拍卖",
+    "notSale": "暂不出售",
+    "enterFixed": "输入一口价",
+    "confirm": "确定",
+    "startPrice": "起拍价",
+    "startTime": "拍卖开始时间",
+    "duration": "拍卖持续时间",
+    "willInclude": "作品将被您收录，可在“个人页面”中的“收藏查看”"
+  },
+  "singleCollection": {
+    "create": "创建单幅艺术品",
+    "titleIntro": "您可以选择一个AI模型，输入文字，生成图像",
+    "name": "名称",
+    "intro": "艺术品介绍",
+    "preview": "预览",
+    "nameInput": "编辑名称，15字以内",
+    "introInput": "输入文字，艺术品介绍",
+    "previewIntro": "支持JPEG，PNG，GIF等格式的图片，MP4，M4V，MOV等格式的视频",
+    "mint": "铸币"
+  },
+  "multiCollection": {
+    "create": "创建多图层艺术品",
+    "titleIntro": "您可以选择一个AI模型，输入文字，生成图像",
+    "canvas": "画布",
+    "canvasName": "画布名称",
+    "canvasNameInput": "编辑名称，15字以内",
+    "canvasIntro": "画布介绍",
+    "canvasIntroInput": "输入文字，艺术品介绍",
+    "canvasSize": "画布尺寸",
+    "layer": "图层",
+    "delete": "删除图层",
+    "layerName": "图层名称",
+    "layerNameInput": "编辑名称，15字以内",
+    "layerIntro": "图层介绍",
+    "layerIntroInput": "输入文字，艺术品介绍",
+    "addImage": "添加图片",
+    "tip": "当前图层的图片将作为主画布默认状态",
+    "layerUploadIntro": "在这里预览您的多图层艺术品",
+    "addLayer": "添加图层",
+    "preview": "预览",
+    "mint": "铸币"
+  },
+  "footer": {
+    "newCreative": "新创意经济.",
+    "crypter": {
+      "title": "加密器.",
+      "item1": "发现",
+      "connect": "连接钱包",
+      "create": "创建项目"
+    },
+    "info": {
+      "title": "信息",
+      "item1": "下载",
+      "item2": "演示",
+      "item3": "支持"
+    },
+    "join": "加入时事通讯",
+    "subscribe": "订阅我们的时事通讯以获得更多免费的设计课程和资源",
+    "enter": "输入你的邮箱",
+    "useCookies": "我们使用cookies以获得更好的体验",
+    "accept": "接受"
+  },
+  "gallery": {
+    "directAuction": "直接拍卖",
+    "inAuction": "正在拍卖",
+    "upcomingAuction": "即将拍卖",
+    "Notsale": "暂不出售",
+    "artGallery": "艺术品画廊",
+    "update": "我们会定期为您更新热门艺术品"
+  },
+  "profile": {
+    "editProfile": "编辑个人信息",
+    "des": "您可以设置喜爱的昵称，上传您的个人头像还能管理其他的个人信息。",
+    "profilePhoto": "个人头像 ",
+    "profilePhotoDes": "我们建议图片的尺寸至少是400x400。",
+    "upload": "上传",
+    "imageType": "只能上传jpg/png/jpeg/gif，且最大支持2M。",
+    "AccountInfo": "账户信息",
+    "userName": "用户名",
+    "personalUrl": "个人网站",
+    "profileDescription": "个人描述",
+    "social": "社交",
+    "facebook": "FACEBOOK",
+    "twitter": "TWITTER",
+    "pinterest": "PINTEREST",
+    "instagram": "INSTAGRAM",
+    "updateProfile": "更新",
+    "clearAll": "清空",
+    "backToPersonal": "返回个人主页",
+    "personal": "个人主页",
+    "profileEdit": "编辑个人信息 ",
+    "updateSuccess": "更新成功",
+    "overflowUsername": "用户名的长度应该小于20",
+    "edit": "编辑",
+    "poapNull": "您没有POAP NFT资产"
+  }
+}

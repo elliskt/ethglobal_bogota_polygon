@@ -1,0 +1,284 @@
+.setPrice {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-top: 5rem;
+  & .setPriceContainer {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+
+    & .title {
+      width: 100%;
+      height: 18%;
+
+      & h1 {
+        font-size: 2.4rem;
+      }
+
+      & h3 {
+        color: #9095a2;
+      }
+    }
+
+    & .centerPart {
+      width: 100%;
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+
+      & .aiModel {
+        width: 50%;
+        height: 70%;
+
+        & h4 {
+          margin-bottom: 1.5rem;
+        }
+
+        & img {
+          width: 100%;
+          height: 80%;
+          border-radius: 20px;
+          -webkit-user-drag: none;
+          object-fit: cover;
+        }
+      }
+
+      & .threeOptions {
+        width: 40%;
+        box-sizing: border-box;
+        padding-top: 47px;
+
+        & .threeBtnsContainer {
+          width: 100%;
+          height: 4rem;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          border-bottom: 2px solid #ebebec;
+          user-select: none;
+          margin-bottom: 30px;
+
+          & .selected {
+            background-color: #000;
+            color: #fff;
+          }
+
+          & .common {
+            background-color: #fff;
+            color: #000;
+          }
+
+          & .fixedPrice {
+            padding: 10px 30px 10px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all ease 0.2s;
+          }
+
+          & .auction {
+            padding: 10px 30px 10px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all ease 0.2s;
+          }
+
+          & .notForSale {
+            padding: 10px 30px 10px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all ease 0.2s;
+          }
+        }
+
+        & .fixedPriceContent {
+          width: 100%;
+          height: 28rem;
+          border-radius: 20px;
+          background-color: #fcfbfd;
+          box-shadow: 0px 0px 12px 0px rgba(133, 133, 133, 30%);
+          box-sizing: border-box;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          transition: all ease 0.2s;
+
+          & .fixedPriceInputContainer {
+            position: relative;
+            width: 100%;
+            height: 5rem;
+            border-radius: 20px;
+            border: 2px solid #ebebec;
+            margin-bottom: 2rem;
+
+            & input {
+              width: 80%;
+              height: 100%;
+              border: none;
+              outline: none;
+              border-radius: 20px;
+              box-sizing: border-box;
+              padding-left: 20px;
+              font-size: 1.2rem;
+            }
+
+            & h1 {
+              position: absolute;
+              top: 22px;
+              right: 32px;
+            }
+          }
+
+          & .confirm {
+            width: 30%;
+            height: 3rem;
+            margin: 0 auto;
+            border-radius: 30px;
+            background-color: #547fef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            user-select: none;
+
+            &:hover {
+              background-color: #225cee;
+            }
+          }
+        }
+
+        & .auctionContent {
+          width: 100%;
+          height: 42rem;
+          border-radius: 20px;
+          background-color: #fcfbfd;
+          box-shadow: 0px 0px 12px 0px rgba(133, 133, 133, 30%);
+          box-sizing: border-box;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          transition: all ease 0.2s;
+
+          & h2 {
+            margin-bottom: 10px;
+          }
+
+          & .auctionInputContainer {
+            position: relative;
+            width: 100%;
+            height: 5rem;
+            border-radius: 20px;
+            border: 2px solid #ebebec;
+            margin-bottom: 2rem;
+
+            & input {
+              width: 80%;
+              height: 100%;
+              border: none;
+              outline: none;
+              border-radius: 20px;
+              box-sizing: border-box;
+              padding-left: 20px;
+              font-size: 1.3rem;
+              color: #8b8e9c;
+            }
+
+            & h1 {
+              position: absolute;
+              top: 22px;
+              right: 32px;
+            }
+          }
+
+          & .confirm {
+            width: 30%;
+            height: 3.5rem;
+            margin: 0 auto;
+            border-radius: 30px;
+            background-color: #547fef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            user-select: none;
+
+            &:hover {
+              background-color: #225cee;
+            }
+          }
+        }
+
+        & .notSaleContent {
+          width: 100%;
+          height: 42rem;
+          border-radius: 20px;
+          background-color: #fcfbfd;
+          box-shadow: 0px 0px 12px 0px rgba(133, 133, 133, 30%);
+          box-sizing: border-box;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          transition: all ease 0.2s;
+
+          & .notSaleContainer {
+            position: relative;
+            width: 100%;
+            height: 5rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3rem;
+
+            & p {
+              width: 50%;
+              height: 100%;
+              margin: 0 auto;
+              text-align: center;
+              color: #8b8e9c;
+              display: flex;
+              align-items: center;
+            }
+          }
+
+          & .confirm {
+            width: 30%;
+            height: 3rem;
+            margin: 0 auto;
+            border-radius: 30px;
+            background-color: #547fef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            cursor: pointer;
+            transition: all ease 0.2s;
+            user-select: none;
+
+            &:hover {
+              background-color: #225cee;
+            }
+          }
+        }
+      }
+    }
+  }
+}
