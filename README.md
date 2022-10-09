@@ -17,7 +17,7 @@ win prizes of AI artist Alice's paintings or limited edition of exclusive galler
 
 ![image](https://user-images.githubusercontent.com/54044930/194745722-6f84a345-7cc6-47c7-8c4e-7aacb2dbec30.png)
 
-In addtional, Ting Museum also work with other organization to gather artist/collector together and to build a healthy NFT ecosystem.
+In addtion, Ting Museum alsocollaborates with other organizations to bring artists/collectors together and to build a healthy NFT ecosystem.
 
 ![image](https://user-images.githubusercontent.com/54044930/194745582-8c06c799-fa9c-4eb1-ab83-198c4b149662.png)
 
@@ -25,10 +25,10 @@ In addtional, Ting Museum also work with other organization to gather artist/col
 
 Website: http://18.162.114.252:8805/
 
-Besides, IcarusArt.AI for helping those artists in local LATAM, also held an exibition in Venezuela to let local artists to step into NFT marketplace.
+Besides, IcarusArt.AI has organized an exhibition in Venezuela in order to help the artists in local LATAM and bring them into the NFT marketplace.
 
 ![b09f9b1870e953209e0ffe4b455707c](https://user-images.githubusercontent.com/54044930/194745881-f0e4a0f1-6015-4605-8f5c-2178e126d1a2.jpg)
 
-In the Future, IcarusArt.AI will be aimmed to develop a free-mint and free-fee marketplace to help more artists and collector stepping into the whole new creative economic.
+In the future, IcarusArt.AI will aim to develop a free-mint and free-fee marketplace to help more artists/collectors enter the whole new creative economy.
 
 ![image](https://user-images.githubusercontent.com/54044930/194746051-2d8bed52-c0c4-4ac4-90f2-3ca80b3b3a11.png)
