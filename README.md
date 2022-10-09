@@ -1,7 +1,7 @@
 # ETHGLOBAL Bogota Hackathon - Polygon UX
-
+--------------------
 Website: www.tingmuseum.art
-
+-------------------
 Ting Museum, an immersive NFT art metaverse experience venue. Ting Museum is dedicated to providing users with a new combination of science fiction visual, 
 auditory and gaming experience, presenting the most avant-garde, interesting and high-end immersive meta-universe. 
 Users can choose from cool skins such as "Space Odyssey 2001" and "Will the Bionic Man Smell Electronic Jasmine?" 
@@ -24,8 +24,10 @@ In addtion, Ting Museum alsocollaborates with other organizations to bring artis
 ---------------------------------------------
 
 Website: http://18.162.114.252:8805
+
 Contract: https://mumbai.polygonscan.com/address/0xa4596381ef93434847b9617ef9834ff71ffc0e3c
 
+---------------------------------------------
 Besides, IcarusArt.AI has organized an exhibition in Venezuela in order to help the artists in local LATAM and bring them into the NFT marketplace.
 
 ![b09f9b1870e953209e0ffe4b455707c](https://user-images.githubusercontent.com/54044930/194745881-f0e4a0f1-6015-4605-8f5c-2178e126d1a2.jpg)
